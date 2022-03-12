@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		*,
+		*::before,
+		*::after {
+			padding: 0;
+			margin: 0;
+			border: 0;
+			box-sizing: border-box;
+		}
+
+		a {
+			text-decoration: none;
+		}
+
+		ul,
+		ol,
+		li {
+			list-style: none;
+		}
+
+		img {
+			vertical-align: top;
+		}
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			font-weight: inherit;
+			/*font-size: inherit;*/
+		}
+
+		html,
+		body {
+			height: 100%;
+			/*line-height: 1;*/
+			background-color: #333;
+			color: #fff;
+			font-family: 'IM Fell English SC', serif;
+		}
+
+		.wrapper__picture {
+			min-height: 100vh;
+			display: flex;
+			flex-direction: column;
+			background-color: indigo;
+		}
+
+		.items__picture {
+			padding: 50px 0;
+		}
+
+		.item__sub {
+			border: 3px solid darkorchid;
+			background-color: rebeccapurple;
+		}
+
+		.items__container-picture {
+			max-width: 1200px;
+			margin: 0px auto;
+			padding: 0px 15px;
+		}
+
+		.items__body-picture {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+			grid-gap: 40px;
+		}
+
+		.item__sub-picture {
+			position: relative;
+			margin: 30px 20px 30px 20px;
+			padding: 0px 0px 117% 0px;
+		}
+
+		.item__inSub-picture {
+			border: 4px solid darkorchid;
+		}
+
+		.item__sub-picture img {
+			object-fit: cover;
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+
+			/* height: 100%; */
+		}
+
+		.item__text-h1-picture {
+			font-size: 18px;
+			line-height: 150%;
+			padding: 20px;
+		}
+
+		.item__text-picture {
+			font-size: 18px;
+			line-height: 150%;
+			padding: 20px;
+		}
+
+		.item__inSub-h1 {
+			/* font-size: 18px; */
+
+		}
+	</style>
+</head>
+<!-- 
+Вес:
+Рост:
+Размер ноги:
+Размер одежды:
+Велосипед: да/нет
+
+Gewicht:
+Wachstum:
+Schuhgröße:
+Kleidergröße:
+Fahrrad: ja/nein -->
+
+<body>
+	<div class="wrapper__picture">
+		<div class="items__picture">
+			<div class="items__container-picture">
+				<div class="items__body-picture">
+					<div class="item__sub">
+						<div class="item__sub-picture">
+							<img class="item__inSub-picture" src="ojpg.jpg" alt="q">
+						</div>
+						<div class="item__sub-h1">
+							<h1 class="item__inSub-h1">Olja</h1>
+						</div>
+						<div class="item__sub-text">
+							<p class="item_inSub-text">
+								Gewicht: <br>
+								Wachstum:<br>
+								Schuhgröße:<br>
+								Kleidergröße:<br>
+								Fahrrad: ja/nein<br>
+							</p>
+						</div>
+					</div>
+					<div class="item__sub">
+						<div class="item__sub-picture">
+							<img class="item__inSub-picture" src="m.jpg" alt="q">
+						</div>
+						<div class="item__sub-h1">
+							<h1 class="item__inSub-h1">Milena</h1>
+						</div>
+						<div class="item__sub-text">
+							<pn class="item_inSub-text">
+								Gewicht: <br>
+								Wachstum:<br>
+								Schuhgröße:<br>
+								Kleidergröße:<br>
+								Fahrrad: ja/nein<br></p>
+						</div>
+					</div>
+					<div class="item__sub">
+						<div class="item__sub-picture">
+							<img class="item__inSub-picture" src="ajpg.jpg" alt="q">
+						</div>
+						<div class="item__sub-h1">
+							<h1 class="item__inSub-h1">Angelina</h1>
+						</div>
+						<div class="item__sub-text">
+							<p class="item_inSub-text">
+								Gewicht: <br>
+								Wachstum:<br>
+								Schuhgröße:<br>
+								Kleidergröße:<br>
+								Fahrrad: ja/nein<br></p>
+						</div>
+					</div>
+					<div class="item__sub">
+						<div class="item__sub-picture">
+							<img class="item__inSub-picture" src="s.jpg" q">
+						</div>
+						<div class="item__sub-h1">
+							<h1 class="item__inSub-h1">Sveta</h1>
+						</div>
+						<div class="item__sub-text">
+							<p class="item_inSub-text">
+								Gewicht: <br>
+								Wachstum:<br>
+								Schuhgröße:<br>
+								Kleidergröße:<br>
+								Fahrrad: ja/nein<br></p>
+						</div>
+					</div>
+					<div class="item__sub">
+						<div class="item__sub-picture">
+							<img class="item__inSub-picture" src="ss.jpg" alt="q">
+						</div>
+						<div class="item__sub-h1">
+							<h1 class="item__inSub-h1">Sascha</h1>
+						</div>
+						<div class="item__sub-text">
+							<p class="item_inSub-text">
+								Gewicht: <br>
+								Wachstum:<br>
+								Schuhgröße:<br>
+								Kleidergröße:<br>
+								Fahrrad: ja/nein<br></p>
+						</div>
+					</div>
+					<div class="item__sub">
+						<div class="item__sub-picture">
+							<img class="item__inSub-picture" src="aa.jpg" alt="q">
+						</div>
+						<div class="item__sub-h1">
+							<h1 class="item__inSub-h1">Anya</h1>
+						</div>
+						<div class="item__sub-text">
+							<p class="item_inSub-text">
+								Gewicht: <br>
+								Wachstum:<br>
+								Schuhgröße:<br>
+								Kleidergröße:<br>
+								Fahrrad: ja/nein<br></p>
+						</div>
+					</div>
+					<div class="item__sub">
+						<div class="item__sub-picture">
+							<img class="item__inSub-picture" src="kk.jpg" alt="q">
+						</div>
+						<div class="item__sub-h1">
+							<h1 class="item__inSub-h1">Kate</h1>
+						</div>
+						<div class="item__sub-text">
+							<p class="item_inSub-text">
+								Gewicht: <br>
+								Wachstum:<br>
+								Schuhgröße:<br>
+								Kleidergröße:<br>
+								Fahrrad: ja/nein<br></p>
+						</div>
+					</div>
+					<div class="item__sub">
+						<div class="item__sub-picture">
+							<img class="item__inSub-picture" src="mm.jpg" alt="q">
+						</div>
+						<div class="item__sub-h1">
+							<h1 class="item__inSub-h1">Maxim</h1>
+						</div>
+						<div class="item__sub-text">
+							<p class="item_inSub-text">
+								Gewicht: <br>
+								Wachstum:<br>
+								Schuhgröße:<br>
+								Kleidergröße:<br>
+								Fahrrad: ja/nein<br></p>
+						</div>
+					</div>
+					<div class="item__sub">
+						<div class="item__sub-picture">
+							<img class="item__inSub-picture" src="jj.jpg" alt="q">
+						</div>
+						<div class="item__sub-h1">
+							<h1 class="item__inSub-h1">Julia</h1>
+						</div>
+						<div class="item__sub-text">
+							<p class="item_inSub-text">
+								Gewicht: <br>
+								Wachstum:<br>
+								Schuhgröße:<br>
+								Kleidergröße:<br>
+								Fahrrad: ja/nein<br></p>
+						</div>
+					</div>
+					<div class="item__sub">
+						<div class="item__sub-picture">
+							<img class="item__inSub-picture" src="uu.jpg" alt="q">
+						</div>
+						<div class="item__sub-h1">
+							<h1 class="item__inSub-h1">Uljana</h1>
+						</div>
+						<div class="item__sub-text">
+							<p class="item_inSub-text">
+								Gewicht: <br>
+								Wachstum:<br>
+								Schuhgröße:<br>
+								Kleidergröße:<br>
+								Fahrrad: ja/nein<br></p>
+						</div>
+					</div>
+					<div class="item__sub">
+						<div class="item__sub-picture">
+							<img class="item__inSub-picture" src="ee.jpg" alt="q">
+						</div>
+						<div class="item__sub-h1">
+							<h1 class="item__inSub-h1">Egor</h1>
+						</div>
+						<div class="item__sub-text">
+							<p class="item_inSub-text">
+								Gewicht: <br>
+								Wachstum:<br>
+								Schuhgröße:<br>
+								Kleidergröße:<br>
+								Fahrrad: ja/nein<br></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
